@@ -26,10 +26,12 @@ requirements:
     - r-base
     - r-lazyeval
     - r-magrittr
+    - r-withr
   run:
     - r-base
     - r-lazyeval
     - r-magrittr
+    - r-withr
 
 test:
   commands:
