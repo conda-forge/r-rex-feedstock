@@ -3,7 +3,7 @@
 
 package:
   name: r-rex
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   fn: rex_{{ version }}.tar.gz
